@@ -1,16 +1,97 @@
-# React + Vite
+# Routine App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple routine and health tracking web application built with React.
+This project is designed to help users stay consistent with their daily routines while also tracking basic health information such as meals and calorie intake.
 
-Currently, two official plugins are available:
+The goal of this project is to build a clean, minimal, and practical productivity tool while learning modern React development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Project Vision
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The Routine App aims to help users:
 
-## Expanding the ESLint configuration
+* Track daily routines and habits
+* Build streaks and consistency
+* Monitor progress through simple statistics
+* Log meals and calorie intake
+* Improve productivity and health awareness
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project is also a learning project focused on improving skills in React development, project architecture, and modern frontend practices.
+
+---
+
+## Phase 1 – MVP (Foundation)
+
+The first phase focuses on creating a working routine tracking system without AI features.
+
+### Home Page
+
+* Welcome message
+* Today's date
+* Quick **Add Routine** button
+* Mini daily summary
+* Streak counter preview
+
+### Routine Features
+
+* Create routines
+* Mark routines as completed
+* Streak tracking
+* Daily completion percentage
+* Basic weekly statistics
+
+### Health Section
+
+* Manual calorie input
+* Meal logging
+* Daily calorie total
+
+---
+
+## Future Plans
+
+Future phases may include:
+
+* Improved user interface and analytics
+* AI-powered routine suggestions
+* AI calorie estimation from food images
+* Smart reminders and notifications
+* Cloud storage and user accounts
+* Mobile-friendly version
+
+---
+
+## Tech Stack
+
+* React
+* Vite
+* JavaScript
+* CSS
+
+---
+
+## Project Status
+
+🚧 Work in progress – currently building the MVP version.
+
+---
+
+## Learning Goals
+
+This project is being developed to practice:
+
+* React fundamentals
+* Component-based architecture
+* State management
+* Frontend project organization
+* Building real-world web applications
+
+---
+
+## Author
+
+Micho
+Student developer exploring web development, AI, and game development.
+
+---
