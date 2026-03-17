@@ -1,0 +1,9 @@
+{
+  "name": "routine-app-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "cd routine-app-project && npm run dev",
+    "build": "cd routine-app-project && npm run build",
+    "start": "cd routine-app-project && npm run preview"
+  }
+}

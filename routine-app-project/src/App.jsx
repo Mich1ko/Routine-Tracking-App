@@ -2,17 +2,21 @@ import './App.css'
 import Home from './pages/Home'
 
 function App() {
+  const today = new Date()
+  const dataLabel = today.toLocaleDateString('en-US', { 
+     weekday: 'long',
+     month: 'long',
+     day: 'numeric',
+     year: 'numeric'
+    })
+
+  const handleAddRoutine = () => {
+    alert('!Add routine flow coming soon!')
+  }
   return (
-    <>
     <div className="app-container">
-      <Home />
+      <Home dateLabel={dateLabel} onAddRoutine={handleAddRoutine}></Home>
     </div>
-    <br />
-    <div>
-      <h1>Routine App</h1>
-    </div>
-    </>
   )
 }
-
 export default App
