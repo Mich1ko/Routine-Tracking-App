@@ -3,13 +3,14 @@ import Home from './pages/Home'
 
 function App() {
   const today = new Date()
-  const dataLabel = today.toLocaleDateString('en-US', { 
+  const dateLabel = today.toLocaleDateString('en-US', { 
      weekday: 'long',
      month: 'long',
      day: 'numeric',
      year: 'numeric'
     })
 
+    
   const handleAddRoutine = () => {
     alert('!Add routine flow coming soon!')
   }
