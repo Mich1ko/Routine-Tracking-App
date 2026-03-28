@@ -34,6 +34,7 @@ function App() {
         routines={routines}
         onToggle={handleToggle}
         onAdd={handleAdd}
+        onAddRoutine={handleAddRoutine}
       />
     </div>
   )
