@@ -13,3 +13,46 @@ body {
 .app-container {
   padding: 24px;
 }
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin: 16px 0;
+}
+
+.routine-form {
+  display: flex;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.routine-form input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+}
+
+.routine-form button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  background: #111827;
+  color: #fff;
+  cursor: pointer;
+}
+
+.routine-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.routine-item label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
