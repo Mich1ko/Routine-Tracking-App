@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import Home from './pages/Home'
+import './App.css'
+
 
 const initialRoutines = [
   { id: 1, name: 'Morning stretch', done: false },
