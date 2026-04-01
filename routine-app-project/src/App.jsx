@@ -23,14 +23,15 @@ function App() {
   }
 
   function handleAdd(name) {
-    setRoutines(prev => [
-      ...prev,
-      { id: Date.now(), name, done: false }
-    ])
-  }
+  if (!name.trim()) return
+  setRoutines(prev => [
+    ...prev,
+    { id: Date.now(), name, done: false }
+  ])
+}
 
   return (
-    <div>
+    <div className='app-container'>
       <Home
         dateLabel={dateLabel}
         routines={routines}
